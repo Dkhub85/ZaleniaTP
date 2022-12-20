@@ -1,16 +1,3 @@
-// ==UserScript==
-// @name         ZaleniaTP
-// @namespace    https://github.com/Dkhub85/ZaleniaTD
-// @version      1.0
-// @description  Incoming troop type predictor
-// @author       Dhruv
-// @match https://*.twilight.zalenia.com/
-// @include https://*.twilight.zalenia.com/?s=*
-// @updateURL https://raw.githubusercontent.com/DKhub85/ZaleniaTP/master/ZaleniaTP.user.js
-// @downloadURL https://raw.githubusercontent.com/DKhub85/ZaleniaTP/master/ZaleniaTP.user.js
-// @grant        none
-// ==/UserScript==
-
 (function() {
     window.addEventListener("load", (event) => {
         setTimeout(function() {
