@@ -1,7 +1,7 @@
 (function() {
 //    window.addEventListener("load", (event) => {
         setTimeout(function() {
-            console.log("working0");
+            console.log("External Script");
  //           document.getElementsByClassName("navbar-nav mr-auto")[1].children[4].children[1].onclick = function() {incomings()};
             document.getElementsByClassName("tab-content card special-color-dark white-text")[0].children[1].children[0].children[0].children[0].children[0].children[2].onclick = function() {incomings()};
             var dk = document.getElementsByClassName("nav nav-tabs md-tabs mdb-color p-0 m-0 white-text")[0];
