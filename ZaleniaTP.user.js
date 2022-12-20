@@ -1,5 +1,5 @@
 (function() {
-    window.addEventListener("load", (event) => {
+//    window.addEventListener("load", (event) => {
         setTimeout(function() {
             console.log("working0");
  //           document.getElementsByClassName("navbar-nav mr-auto")[1].children[4].children[1].onclick = function() {incomings()};
@@ -9,8 +9,8 @@
             var textnodez = document.createTextNode("TP Active");
             nodez.appendChild(textnodez);
             dk.appendChild(nodez);
-        }, 10000);
-    });
+        }, 20000);
+//    });
     function tableToCSV() {
 
         // Variable to store the final csv data
