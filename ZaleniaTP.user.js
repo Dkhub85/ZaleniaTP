@@ -1,7 +1,20 @@
+// ==UserScript==
+// @name         Adblockblocker
+// @namespace    https://github.com/Dkhub85/ZaleniaTD
+// @version      1.0
+// @description  Incoming troop type predictor
+// @author       
+// @match https://*.twilight.zalenia.com/
+// @include https://*.twilight.zalenia.com/?s=*
+// @updateURL https://raw.githubusercontent.com/DKhub85/ZaleniaTP/master/ZaleniaTP.user.js
+// @downloadURL https://raw.githubusercontent.com/DKhub85/ZaleniaTP/master/ZaleniaTP.user.js
+// @grant        none
+// ==/UserScript==
+
 (function() {
-    setTimeout(function() {
+//    setTimeout(function() {
         mainscript();        
-    }, 40000);
+//    }, 40000);
 
     function mainscript() {
         console.log("running1");
