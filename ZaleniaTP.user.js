@@ -1,9 +1,9 @@
 // ==UserScript==
-// @name         Adblockblocker
+// @name         Zunky
 // @namespace    https://github.com/Dkhub85/ZaleniaTD
 // @version      1.0
 // @description  Incoming troop type predictor
-// @author       
+// @author       Dhruv
 // @match https://*.twilight.zalenia.com/
 // @include https://*.twilight.zalenia.com/?s=*
 // @updateURL https://raw.githubusercontent.com/DKhub85/ZaleniaTP/master/ZaleniaTP.user.js
